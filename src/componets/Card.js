@@ -1,5 +1,7 @@
-function Card() {
-    return <div className="card"></div>
+import './Card.css'
+
+function Card(props) {
+    return <div className="Card">{props.childern}</div>
 
 
 
